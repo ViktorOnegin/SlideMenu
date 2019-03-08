@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <item
+            android:id="@+id/actor"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Search by actor name" />
+        <item
+            android:id="@+id/film"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Search by film name (BETA)" />
+        <item
+            android:id="@+id/app"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About App" />
+</menu>
